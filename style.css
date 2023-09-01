@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://codeyogi.io/images/bgbanner.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 100%;
+}
+.main{
+    margin-top: 100px;
+}
+.navbar{
+    top: 0;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlogo{
+    height: 80px;
+    width: 160px;
+    margin: 3px 25px;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 0 25px 20px 0;
+}
+a{
+    color: #ffffffB3;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size:11px ;
+    font-family: "open sans",arial,sans-serif;
+
+}
+a:hover{
+    color: #ffffff;
+}
+.big-pera {
+    font-family: Dosis, arial, sans-serif;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 82px;
+    height: 97px;
+    display: flex;
+    padding: 0 200px;
+    letter-spacing: 0.18rem;
+}
+.small-pera{
+    color: #ffffffB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-top:3rem; 
+}
+.pera{
+    color: #ffffffB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-top:8rem; 
+    padding-bottom: 60px;
+}
+.hero-section02 {
+    padding: 140px 0 0 0;
+    height: 316px;
+    width: 1384px;
+    background-color: white;
+}
+.rows{
+    margin: 0 15px;
+    padding: 0px 161px;
+    text-align: center;
+}
+.hero{
+    font-size: 14px;
+    font-family:Helvetica, sans-serif;
+    width: 100%;
+    color: #423c3cb3;
+    background-color: #ffffff;
+    text-align: center;
+}
+br{
+    display: block;
+    margin: 10px 0;
+}
+
+.hero-section03 .methodology{ 
+    color: #111;
+    text-align: center;
+    letter-spacing: .72rem;
+    width: 1384px;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 18px;
+    padding-top: 140px;
+    background-color: white;
+} 
+.hero-section04{
+    height: 600x;
+    padding: 0 107px;
+    display: grid;
+    background-color: #fff;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.boxx{
+    background-color: white;
+    height: 244px;
+    margin: 70px 0 0;
+    padding: 0 15px;
+    border-radius: 4px solid black;
+}
+.hero-section04 .boxx .heading{
+    letter-spacing: .4rem;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #111;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.hero-section04 .boxx .paragraph{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.86;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.main02{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    background-color: #111;
+}
+.main02 .div01{
+    width: 640px;
+    height: 320px;
+    color: #fff;
+    padding: 0 33px;
+    line-height: 1.86;
+    font-family: "Open Sans", arial, sans-serif;
+    margin-top: 160px;
+}
+.helpus{
+    color:#fff;
+    letter-spacing: .4rem;
+    margin-bottom: 20px;
+}
+.pass{
+    color: #ffffffB3;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 15px;
+    margin: 0 0 35px;
+}
+.talk{
+    text-align: center;
+    background-color: #ffffffcc;
+    color: #111;
+    font-family: "Open Sans", arial, sans-serif;
+    width: 131px;
+    padding: 4px;
+    font-size: 12px;
+}
+.main02 .div02{
+    background-image:url("https://codeyogi.io/images/promo-1.jpg") ;
+    background-position:fixed ;
+    background-repeat: no-repeat;
+    height: 456px;
+    width: 786px;
+    background-size:cover ;
+    margin: -40px 0 0;
+    padding: 0 15px;
+}
+.main03{
+    height: 330px;
+    width: 1384px;
+    background-color: #fff;
+    padding: 60px 0;
+}
+.main03 .color{
+    color: #777;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 15px;
+    margin: 0 195px;
+    margin-top: 55px;
+}
+.main03 .motivation{
+    color: black;
+    text-align: center;
+    letter-spacing: .6rem;
+}
+.main03 .cote{
+    font-style: italic;
+}
+.main04 .hero-section05 .boxx .logoo{
+    height: 4px;
+    width: 4px;
+}
+.main04{
+    height: 560px;
+    width: 1384px;
+    padding-bottom: 60px;
+}
+.hero-section05{
+    height: 635px;
+    padding: 0px 46px;
+    gap: 46px 112px;
+    display: grid;
+    background-color: #fff;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.hero-section05 .boxxx .headingg{
+    letter-spacing: .4rem;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #111;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.hero-section05 .boxxx .paragraphh{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.86;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.logoo ,.lg01{
+    font-size: 50px;
+    text-align: center;
+}
+.main04 .teach{
+    background-color: #fff;
+    color: #111;
+    letter-spacing: .6rem;
+    text-align: center;
+    padding:80px 0;
+}
+.main05 {
+    text-align: center;
+    height: 84px;
+    padding: 140px 0;
+    width: 1384px;
+    background-color: #f8f8f8;
+}
+.main05 .stay{
+    margin-bottom: 15px;
+    font-size: 16px;   
+    font-weight: 400;
+    font-family: Dosis, arial, sans-serif;
+    letter-spacing: 0.3em;
+}
+.respect {
+    font-size: 12px;
+    color: #aaa;
+    margin: 45px 0;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.mail {
+    height: 30px;
+    width: 300px;
+    padding-left: 17px;
+    padding-right: 13px;
+    font-size: 12px;
+    padding-left: 17px;
+    margin-right: 152px;
+    color: #777;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dot{
+    font-size: 30px;
+}
+.main06{
+    width: 1384px;
+    padding: 110px 0;
+}
+.main06 .contact{
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: .3rem;
+    background-color: white;
+    padding-bottom: 135px;
+}
+.main060101,.main060102,.main060103{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background-color: white;
+    margin: 0 150px 0 10px;
+}
+.call ,.addresss ,.email{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .4rem;
+    line-height: 1.86;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.main0601{
+    display: flex;
+    justify-content: center;
+}
+.num ,.it ,.io{
+    color: #444444;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 15px;
+    font-style: none;
+}
+.main0602{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    padding: 125px 280px 0px 280px;
+}
+.text, .mobile {
+    height: 30px;
+    width: 400px;
+    padding-left: 17px;
+    padding-right: 13px;
+    font-size: 12px;
+    padding-left: 17px;
+    color: #777;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mobile{
+    margin-top: 10px;
+}
+.message{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #777;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.lastone{
+    display: flex;
+    padding: 1px 272px;
+    background-color:white;
+    font-size: 12px;
+    color: #aaa;
+    font-family: "Open Sans", arial, sans-serif;
+}
+.main07{
+    background-color: #131111;
+    width: 1355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.main07 .map{
+    color: #aaa;
+}
+.footer{
+    padding: 80px 0;
+}
+.footer .navlogo01{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook,.lg{
+    margin: 43px 8px;
+    font-size: 25px;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    padding: 7px 10px;
+}
+.lgg{
+    color: #111;
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+}
+.lgg01{
+    transform: rotate(-45deg);
+}
+.lg:hover{
+    transition:.3s;
+    color: #111;
+}
+.codeyogi, .rights{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.codeyogi{
+    color: #111111;
+    letter-spacing: 7px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rights{
+    color: #999999;
+    font-size: 11px;
+    margin-top: 8px;
+    font-family:"open-sens",arial ,sans-serif ;
+}
+
+
+
